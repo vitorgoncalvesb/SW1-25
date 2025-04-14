@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabela Dinâmica</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 2px solid black; 
+        }
+        th, td {
+            border: 1px solid black; 
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Dinâmica</h1>
+    <form method="post" action="exercicio2.php">
+        <label for="linhas">Número de linhas:</label>
+        <input type="number" name="linhas" id="linhas" required><br><br>
+
+        <label for="colunas">Número de colunas:</label>
+        <input type="number" name="colunas" id="colunas" required><br><br>
+
+        <input type="submit" value="Gerar Tabela">
+    </form>
+</body>
+</html>
